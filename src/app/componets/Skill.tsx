@@ -1,8 +1,11 @@
 'use client';
 import {SkillStyle} from "@/app/style/SkillStyle";
 import {Activity, Braces, Container, Database, FileCode, Hammer} from "lucide-react";
+import { motion } from "motion/react";
+import useUiStore from "@/app/store/useUiStore";
 
 const Skill = ()=>{
+    const { tabIndex } = useUiStore();
     const skill ={
         language:{
             name: 'Language',
@@ -155,7 +158,20 @@ const Skill = ()=>{
     console.log('skillList',skillList)
     return (
         <SkillStyle>
-            <div className='inner'>
+              <motion.div className='inner'
+                          initial={{ scale: 0 }}
+                          animate={tabIndex === 1 ? { scale: 1 } : { scale: 0 }}
+                          transition={{
+                              duration: 0.6,
+                              ease: "backOut",
+                              scale: {
+                                  type: "spring",
+                                  stiffness: 260,
+                                  damping: 20
+                              }
+                          }}
+
+              >
                 <h2 className='sect_title'>SKILL</h2>
                 <ul className='skill_list'>
                     {
@@ -181,7 +197,7 @@ const Skill = ()=>{
                         })
                     }
                 </ul>
-            </div>
+              </motion.div>
         </SkillStyle>
     );
 }

@@ -1,7 +1,11 @@
 import {AtSign, Calendar, GraduationCap, MapPin, UserRound} from "lucide-react";
 import {AboutStyle} from "@/app/style/AboutStyle";
+import useUiStore from "@/app/store/useUiStore";
+import {useEffect} from "react";
+import { motion } from "motion/react"
 
 const About=() => {
+    const { tabIndex } = useUiStore();
     const aboutMe = [
         {
             text:'NickName',
@@ -30,9 +34,26 @@ const About=() => {
         },
     ];
 
+    useEffect(() => {
+
+    }, [tabIndex]);
+
     return(
         <AboutStyle>
-            <div className='inner'>
+            <motion.div className='inner'
+                        initial={{ scale: 0 }}
+                        animate={tabIndex === 0 ? { scale: 1 } : { scale: 0 }}
+                        transition={{
+                            duration: 0.6,
+                            ease: "backOut",
+                            scale: {
+                                type: "spring",
+                                stiffness: 260,
+                                damping: 20
+                            }
+                        }}
+
+            >
                 <h2 className='sect_title'>ABOUT</h2>
                 <ul className='about_list'>
                     {
@@ -45,7 +66,7 @@ const About=() => {
                         ))
                     }
                 </ul>
-            </div>
+            </motion.div>
         </AboutStyle>
     )
 }
