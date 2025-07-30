@@ -20,8 +20,9 @@ const nextConfig: NextConfig = {
     },
     generateBuildId: () => 'build',
     outputFileTracing: false,
-
-    // 빌드 후 .nojekyll 파일 자동 생성
+    env: {
+        BASE_PATH: isProd ? `/${repoName}/` : '/',
+    },
     webpack: (config, { webpack }) => {
         return config;
     }

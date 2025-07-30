@@ -18,7 +18,7 @@ export const PROJET_DATA: Record<ProjectKey, ProjectData> =     {
             'Lookbook 한곳에서 볼수 있는 특징',
             '브랜드 랭킹 시스템',
         ],
-        images:['img/project/sild/sild_1.jpg','img/project/sild/sild_2.jpg','img/project/sild/sild_3.jpg'],
+        images:[`${process.env.BASE_PATH}img/project/sild/sild_1.jpg`,'img/project/sild/sild_2.jpg','img/project/sild/sild_3.jpg'],
         description:`vue2 기반으로 개발한 웹뷰 의류 쇼핑몰 클라이언트입니다. 검색 엔진 Elasticsearch 과 lookbook 시스템이 포인트 인 프로젝트 입니다.,<br />프론트 개발 을 담당 하였습니다.`,
         technologyStack: ['Vue2', 'Pinia', 'i18n', 'Vite','kotlin','swift'],
     },
