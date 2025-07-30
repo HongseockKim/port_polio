@@ -6,9 +6,13 @@ const nextConfig: NextConfig = {
     images:{
       unoptimized:true
     },
+    experimental: {
+        viewTransition: true
+    },
     compiler:{
       styledComponents:true
-    }
+    },
+    generateBuildId: () => 'build'
 };
 
 export default nextConfig;
