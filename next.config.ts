@@ -7,7 +7,8 @@ const nextConfig: NextConfig = {
     images:{
       unoptimized:true
     },
-    basePath: '/port_polio',
+    basePath: 'port_polio',
+    assetPrefix: 'port_polio',
     experimental: {
         viewTransition: true
     },
