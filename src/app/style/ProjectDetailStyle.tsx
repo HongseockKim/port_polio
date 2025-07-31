@@ -17,6 +17,7 @@ export const ProjectDetailClientStyle = styled.div`
     }
   }
   .project_content{
+    max-width: 1200px;margin: 0 auto;
     .sub_title{
       font-size: 34px;margin-bottom: 20px;
     }
