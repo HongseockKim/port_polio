@@ -41,7 +41,7 @@ export const PROJET_DATA: Record<ProjectKey, ProjectData> =     {
         ],
         images:[`${process.env.BASE_PATH}img/project/seemple/seemple_1.jpg`,`${process.env.BASE_PATH}img/project/seemple/seemple_2.jpg`,`${process.env.BASE_PATH}img/project/seemple/seemple_3.jpg`],
         description:`샌드버드 채팅 API 를 활용하여 실시간 채팅 1대1 과 다대다 채팅 방 미팅,실시간 라이브 샷 vue3 기반 으로 개발한 웹뷰 실시간 커뮤니케이션 플랫폼 클라이언트입니다.`,
-        technologyStack: ['Vue3 Composition API','Pinia', 'Vite','kotlin','swift','Sendbird API'],
+        technologyStack: ['React','Redux', 'Vite','Sendbird API'],
     },
     haru:{
         summary:`구독 형 무인 세탁 서비스`,
