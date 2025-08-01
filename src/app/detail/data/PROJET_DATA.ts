@@ -117,15 +117,16 @@ export const PROJET_DATA: Record<ProjectKey, ProjectData> =     {
         technologyStack: ['React','Mobx','Electron','KCP','NICE','Suprema API','VAN','SerialPort/HID Relay IoT'],
     },
     pickkoapp:{
-        summary:`pickko 키오스크 페이지`,
+        summary:`pickko 작심 앱`,
         summaryList:[
             '이용권 구매',
             '자리 이동',
+            '문열림',
             '스터디룸 예약',
         ],
         images:[`${process.env.BASE_PATH}img/project/pickkoApp/pickko_app_1.jpg`,`${process.env.BASE_PATH}img/project/pickkoApp/pickko_app_2.jpg`,`${process.env.BASE_PATH}img/project/pickkoApp/pickko_app_3.jpg`],
         description:`기존 Php 로 만들어진 앱 에서 이용권 구매 부재 와 결제 부재 로 인하여 신규 앱 개발`,
-        technologyStack: ['React','tanstackQuery','flutter','port one pg','redux','Vite'],
+        technologyStack: ['React','ㅆanstackQuery','flutter','port one pg','redux','Vite'],
     },
     caring:{
         summary:`케어링 얼굴 인식 관리 시스템`,
