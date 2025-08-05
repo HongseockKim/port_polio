@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/detail/sild":{},"/detail/BankX":{},"/detail/seemple":{},"/detail/haru":{},"/detail/ThankyouMarket":{},"/detail/liveTo":{},"/detail/lxhausys":{},"/detail/samsung":{},"/detail/pickkoadmin":{},"/detail/pickkokiosk":{},"/detail/pickkoapp":{},"/detail/caring":{}},"dynamicRoutes":{"/detail/[link]":{"fallback":null}},"notFoundRoutes":[],"preview":{"previewModeId":"afcba66901c058b0d1d706803aa14047","previewModeSigningKey":"1a45f03f9162f523d63d1affa16be1a3fda165533aeb0be45076d57de4e00939","previewModeEncryptionKey":"737fd871eae118f8c563480f0609a87443075399ec1667b048db745d716c4ae1"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "61c890cd83e429806f711d0bf9a5b3f0",
+    "previewModeSigningKey": "7828a70becf77e4bc4a5d06b5ccd2d606bed746db4c41fb19d6b83412e32add0",
+    "previewModeEncryptionKey": "c27ad5ce2e15102f79550c7d276657c54094cb7bb525d0ca1fd15396a5ee2b98"
+  }
+}
