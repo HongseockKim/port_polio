@@ -5,6 +5,9 @@ export const ProjectDetailStyle = styled.div`
     width: 100%;height: 100%;position: fixed;top:0;left:50%;background: #fff;overflow: auto;transform: translateX(-50%);
   max-width: 1500px;margin: 0 auto;display: flex;flex-direction: column;
     scrollbar-width: none;
+    .inner{
+        overflow: unset;
+    }
     &::-webkit-scrollbar {
         display: none;
     }
