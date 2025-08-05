@@ -23,7 +23,6 @@ export default function ProjectDetailClient({ link }: Props) {
     useEffect(() => {
         setIsClient(true);
 
-        // 클라이언트에서만 DOMPurify 실행
         if (projectData?.description) {
             import('dompurify').then((DOMPurify) => {
                 setSanitizedDescription(DOMPurify.default.sanitize(projectData.description));
@@ -35,7 +34,6 @@ export default function ProjectDetailClient({ link }: Props) {
         router.back();
     };
 
-    // 클라이언트 렌더링 완료 전까지는 로딩 표시
     if (!isClient) {
         return (
             <ProjectDetailClientStyle>

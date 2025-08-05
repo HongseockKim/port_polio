@@ -4,6 +4,10 @@ import styled from "styled-components";
 export const ProjectDetailStyle = styled.div`
     width: 100%;height: 100%;position: fixed;top:0;left:50%;background: #fff;overflow: auto;transform: translateX(-50%);
   max-width: 1920px;margin: 0 auto;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
 `;
 export const ProjectDetailClientStyle = styled.div`
   padding: 20px;overflow: hidden;overflow-y: auto;
@@ -29,7 +33,7 @@ export const ProjectDetailClientStyle = styled.div`
       .project_detaion_image_swiper{
         width: 100%;text-align: center;
         .project_detaion_image_swiper_slide{
-          border-radius: 20px;overflow: hidden;
+          border-radius: 20px;overflow: hidden;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
       }
       &.summary{
