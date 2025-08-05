@@ -16,7 +16,15 @@ const nextConfig: NextConfig = {
         viewTransition: true
     },
     compiler: {
-        styledComponents: true
+        styledComponents:{
+            ssr: true,
+            displayName: true,
+            fileName: true,
+            minify: true,
+            transpileTemplateLiterals: true,
+            pure: true,
+            cssProp: true,
+        }
     },
     generateBuildId: () => 'build',
     outputFileTracing: false,
