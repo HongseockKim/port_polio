@@ -29,7 +29,7 @@ const MainStyle = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2
     displayName: "MainStyle",
     componentId: "sc-37352a3e-0"
 })`
-    background: #fff;padding: 250px 20px 20px 20px;width: 100vw;height: calc(100vh - 150px); min-height: 100vh;
+    background: #fff;padding: 250px 20px 20px 20px;width: 100vw;height: calc(100vh - 150px); min-height: 100vh;max-width: 1920px;margin: 0 auto;
   .inner{
     text-align: left;padding: 20px;width: 100%;height: 100%;background: #fff;max-width: 1920px;margin: 0 auto;overflow: auto;
     .sect_title{

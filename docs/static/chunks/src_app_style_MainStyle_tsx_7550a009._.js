@@ -14,7 +14,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$co
 ;
 function _templateObject() {
     const data = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$swc$2f$helpers$2f$esm$2f$_tagged_template_literal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["_"])([
-        "\n    background: #fff;padding: 250px 20px 20px 20px;width: 100vw;height: calc(100vh - 150px); min-height: 100vh;\n  .inner{\n    text-align: left;padding: 20px;width: 100%;height: 100%;background: #fff;max-width: 1920px;margin: 0 auto;overflow: auto;\n    .sect_title{\n      font-size: clamp(24px,3vw,100px);color: #1a1a1a;\n    }\n  }\n"
+        "\n    background: #fff;padding: 250px 20px 20px 20px;width: 100vw;height: calc(100vh - 150px); min-height: 100vh;max-width: 1920px;margin: 0 auto;\n  .inner{\n    text-align: left;padding: 20px;width: 100%;height: 100%;background: #fff;max-width: 1920px;margin: 0 auto;overflow: auto;\n    .sect_title{\n      font-size: clamp(24px,3vw,100px);color: #1a1a1a;\n    }\n  }\n"
     ]);
     _templateObject = function() {
         return data;
