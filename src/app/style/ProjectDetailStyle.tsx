@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const ProjectDetailStyle = styled.div`
     width: 100%;height: 100%;position: fixed;top:0;left:50%;background: #fff;overflow: auto;transform: translateX(-50%);
-  max-width: 1920px;margin: 0 auto;display: flex;flex-direction: column;
+  max-width: 1500px;margin: 0 auto;display: flex;flex-direction: column;
     scrollbar-width: none;
     &::-webkit-scrollbar {
         display: none;
@@ -16,7 +16,7 @@ export const ProjectDetailClientStyle = styled.div`
         display: none;
     }
   .project_detail_header{
-    width: 100%;display: flex;justify-content: space-between;align-items: center;padding: 20px 0;position: sticky;top:0;z-index: 100;background: #fff;
+    width: 100%;display: flex;justify-content: space-between;align-items: center;padding: 20px 0;position: sticky;top:20px;z-index: 100;background: #fff;
     .project_detail_back_button{
       flex: 0 0 150px;padding: 10px 20px;border: none;border-radius: 5px;cursor: pointer;display: flex;align-items: center;justify-content: center;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);background: transparent;
     }
