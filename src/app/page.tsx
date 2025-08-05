@@ -41,9 +41,9 @@ export default function Home() {
           effect="creative"
           mousewheel={{
               releaseOnEdges: true,
-              sensitivity: 0.5,
-              thresholdDelta: 100,
-              thresholdTime: 500,
+              sensitivity: 0.2,
+              thresholdDelta: 50,
+              thresholdTime: 300,
               forceToAxis: false,
               invert: false,
           }}
