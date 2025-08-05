@@ -42,8 +42,8 @@ export default function Home() {
           mousewheel={{
               releaseOnEdges: true,
               sensitivity: 0.2,
-              thresholdDelta: 50,
-              thresholdTime: 300,
+              thresholdDelta: 30,
+              thresholdTime: 200,
               forceToAxis: false,
               invert: false,
           }}

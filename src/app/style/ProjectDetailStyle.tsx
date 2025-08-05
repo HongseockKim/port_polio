@@ -33,7 +33,7 @@ export const ProjectDetailClientStyle = styled.div`
       .project_detaion_image_swiper{
         width: 100%;text-align: center;
         .project_detaion_image_swiper_slide{
-          border-radius: 20px;overflow: hidden;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+          border-radius: 20px;overflow: hidden;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);background: #fff;
         }
       }
       &.summary{
